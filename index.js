@@ -31,8 +31,8 @@ app.use(bodyParser.json({ limit: "30mb", extended: true }));
 app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
 app.use(
   cors({
-    origin: "https://SocietyZ.onrender.com",
-    methods: ["GET", "POST"],
+    origin: "https://societyz.onrender.com",
+    methods: ["GET", "POST","OPTIONS","PUT","DELETE"],
     credentials: true,
   })
 );
